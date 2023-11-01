@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h4,
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+h4 {
+  font-weight: 800;
+  font-size: 20px;
+  color: burlywood;
+}
+h2 {
+  font-weight: 800;
+  font-size: 30px;
+  color: black;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellowgreen;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin: 20px;
+}
+.menu ul {
+  display: inline-flex;
+  padding: 5px;
+  margin: 10px;
+}
+.menuItem li,
+a {
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+  color: white;
+}
+
+.menuItem li a:hover {
+  color: black;
+  background-color: white;
+  padding: 10px;
+}
+.img {
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content h3 {
+  color: white;
+  text-shadow: 2px 1px #000000;
+  font-size: 60px;
+  font-weight: 800;
+}
+.content p {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.input {
+  display: flex;
+}
+.input input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+}
+.btn {
+  padding: 10px 30px 10px 30px;
+  margin-left: 10px;
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: white;
+  color: greenyellow;
+  cursor: pointer;
+}
+.about {
+  display: flex;
+  margin: 100px;
+}
+.image img {
+  width: auto;
+  background-position: center;
+  background-size: contain;
+}
+.aboutContent {
+  margin-left: 100px;
+}
+.aboutContent h4 {
+  font-weight: 800;
+  font-size: 20px;
+  color: burlywood;
+}
+
+.aboutContent h3 {
+  margin-top: 10px;
+  color: #1e1c1c;
+  font-size: 40px;
+}
+
+.aboutContent p {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 10px;
+  color: rgb(109, 96, 80);
+}
+.list {
+  padding-top: 10px;
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(109, 96, 80);
+}
+.listIcon {
+  color: greenyellow;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.aboutBtn {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: greenyellow;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.card {
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card:hover {
+  background-color: #86b817;
+  color: white;
+}
+.servicesIcon {
+  font-size: 50px;
+  margin: 20px;
+}
+.card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.card p {
+  margin: 10px;
+  font-size: 17px;
+}
+.destination {
+  max-width: 1080px;
+  width: 95%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  /* column-gap: 20px; */
+  row-gap: 20px;
+}
+.column img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.packageRow {
+  display: flex;
+  max-width: 1080px;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+.packageCard {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.packageIcon {
+  display: flex;
+  justify-content: center;
+}
+.packageImage img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.packageContent i {
+  color: #86b817;
+}
+.packageContent {
+  padding: 20px;
+}
+.packageContent p {
+  margin: 10px;
+  text-align: justify;
+  color: #000000;
+  font-weight: 400;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  padding: 10px;
+  border: none;
+  background-color: #86b817;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.booking {
+  width: 90%;
+  max-width: 1080px;
+  margin: auto;
+  background-size: cover;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"); /* The least supported option. */
+}
+.bookingCon {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+}
+.left h5 {
+  font-size: 30px;
+}
+.left h3 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.left p {
+  text-align: justify;
+  margin-top: 20px;
+}
+.right {
+  margin-top: 100px;
+  width: 50%;
+}
+.right h3 {
+  font-size: 30px;
+  font-weight: bold !important;
+  color: white;
+}
+.right input,
+textarea {
+  width: auto;
+  padding: 10px;
+  margin: 10px 0px;
+  outline: none;
+  border: 2px solid black;
+  opacity: 0.2;
+}
+.right textarea {
+  width: auto;
+}
+.right button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #86b817;
+  color: white;
+}
+
+.mainRow {
+  display: flex;
+  justify-content: space-around;
+}
+.process {
+  margin: 50px;
+}
+.processContent {
+  height: 200px;
+  width: 400px;
+  border: 1px solid #86b817;
+  position: relative;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #86b817;
+  position: relative;
+  top: -40px;
+  left: 35%;
+}
+.processIcon {
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+}
+.processContent h3 {
+  text-align: center;
+}
+
+.processContent p {
+  text-align: center;
+}
+
+@media screen and (max-width: 0px) {
+  .content > h3 {
+    font-size: 20px;
+  }
+  .photo-gallery {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .content > h3 {
+    font-size: 20px;
+  }
+  .photo-gallery {
+    flex-direction: column;
+  }
+}
