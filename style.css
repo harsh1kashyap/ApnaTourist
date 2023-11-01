@@ -103,6 +103,7 @@ a {
 }
 .image img {
   width: auto;
+  height: 500px;
   background-position: center;
   background-size: contain;
 }
